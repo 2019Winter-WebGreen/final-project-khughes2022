@@ -1,0 +1,108 @@
+/*
+* Kayla Hughes
+* 5-30-19
+* Final Project
+* Lab: C13 Fluid layout Exercise
+*/
+
+*{ Margin: 0px; padding: 0px;
+
+}
+/* Body attributes here */
+/* Changes body's width, color, margin, border, and font family */
+body{
+    Width: 98% ;
+    background-color: lightblue;
+    margin: auto;
+    border: 1px solid black;
+    font-family:sans-serif;
+    
+}
+/* Changes the h1 named "Title" font size */
+#Title {
+    font-size: 50px;
+}
+/* Changes all h1 margins, padding, text alignment, text decoration, font family, and font size */
+h1 { 
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy; 
+    font-size: 35px;
+}
+/* Changes all h2 margins, padding, text alighnment, text decoration, and font family */
+h2 {
+    margin:auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: fantasy;
+}
+/* Makes th header have a solid black border underneath */
+header {
+    border-bottom:2px solid black;
+    
+}
+/* Changes SidebarA's width, height, float, border-right, margin, padding, and font size  */
+#SidebarA {
+    width: 21% ;
+    height: 450px;
+    float:left;
+    border-right: 2px solid black;
+    margin: auto;
+    padding: 5px;
+    font-size: 14px;
+}
+/* Changes main's width, height, float, and font size */
+main {
+    width: 56%;
+    height: 450px;
+    float:left;
+    font-size: 18px;
+}
+/* Changes SidebarB's width, height, float, border left, and font size */
+#SidebarB {
+    width:  21% ;
+    height: 450px;
+    float:right;
+    border-left: 2px solid black;
+    font-size: 14px;
+}
+/* Changes footer's float, border top, margin, and padding */
+footer {
+    clear:both;
+    border-top: 2px solid black;
+    margin: auto;
+    padding: 20px;
+}
+/* Changes the image labeled "Marta" width, height, margin, and padding */ 
+#Marta {
+    width:220px;
+    height:140px;
+    margin: 10px;
+    padding: 5px;
+    float:left;
+}
+/* Changes the image labeled "Fifa" width, height, and float */
+#Fifa {
+    width:80px;
+    height:150px;
+    float: left;
+}
+/* Changes al p's margin and padding */
+p {
+    margin: auto;
+    padding: 10px;
+}
+/* Turns all links plum when hovered over or focused on  */
+a:hover, a:focus {
+    color: plum;
+}
+/* Changes visited links to dark orange */
+a:visited {
+    color: darkorange;
+}
+
+ 
+
